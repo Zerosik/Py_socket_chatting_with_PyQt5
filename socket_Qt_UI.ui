@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>436</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Qt_socket_Program </string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <widget class="QPushButton" name="sendBtn">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>320</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>40</y>
+      <width>281</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sendText">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>320</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Message</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="conBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>360</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nicknameEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>nickname</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitBtn">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>360</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>quit</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="userList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>121</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="colorBtn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>320</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Color</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="userLabel">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>12</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>userList</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="chatLabel">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>16</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ChatBrowser</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="whisperCheckBox">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>360</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>귓속말</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
