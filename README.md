@@ -4,6 +4,3 @@ to execute
 1. open CMD
 2. CD directory
 3. enter command "python socket_main_Qt.py"
-
-bugs
-while reconnecting, send button may cause Exception.
